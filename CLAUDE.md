@@ -381,6 +381,8 @@ Match file naming patterns used in the repo
 
 Use Tailwind CSS for styling (already configured)
 
+IMPORTANT: This project uses Tailwind CSS v4 in zero-config mode. DO NOT create or add tailwind.config.ts unless explicitly instructed. All theme customization should be done via CSS variables in src/index.css using the @theme directive.
+
 Follow existing patterns and utilities
 
 You MUST NOT:
