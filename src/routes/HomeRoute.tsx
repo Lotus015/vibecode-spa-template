@@ -4,8 +4,8 @@ export function HomeRoute() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6">
       <div className="text-center">
-        <h1 className="text-6xl font-bold">Vibecode SPA</h1>
-        <p className="mt-4 text-xl text-gray-500">
+        <h1 className="text-6xl font-bold">Vibecode</h1>
+        <p className="mt-4 text-xl text-muted-foreground">
           AI-safe Vite + Supabase template
         </p>
 

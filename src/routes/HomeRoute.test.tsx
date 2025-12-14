@@ -5,7 +5,7 @@ import { HomeRoute } from './HomeRoute'
 describe('HomeRoute', () => {
   it('should render the main heading', () => {
     render(<HomeRoute />)
-    const heading = screen.getByRole('heading', { name: /vibecode spa/i })
+    const heading = screen.getByRole('heading', { name: /^vibecode$/i })
     expect(heading).toBeDefined()
   })
 
